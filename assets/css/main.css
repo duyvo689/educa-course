@@ -20,6 +20,10 @@ section {
     padding: 3rem 5%;
 }
 
+.active1 {
+    color: yellow !important;
+}
+
 .btn {
     display: inline-block;
     margin-top: 1rem;
