@@ -1,0 +1,324 @@
+* {
+    margin         : 0;
+    padding        : 0;
+    text-decoration: none;
+    text-transform : capitalize;
+    box-sizing     : border-box;
+    transition     : all .2s linear;
+    outline        : none;
+    border         : none;
+}
+
+
+html {
+    font-size      : 62.5%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+section {
+    padding: 3rem 5%;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    border: .1rem solid #666;
+    padding: .5rem 2rem;
+    background-color: #666;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 100;
+    cursor: pointer;
+}
+.btn:hover {
+background-color: green;
+}
+
+
+.header {
+    position        : fixed;
+    top             : 0;
+    left            : 0;
+    background-color: green;
+    height          : 100%;
+    width           : 30rem;
+    padding: 3rem;
+    z-index: 1000;
+}
+
+.header .navbar .nav-logo{
+font-size: 2.5rem;
+color: #fff;
+cursor: pointer;
+}
+
+.header .navbar .nav-logo i{
+    font-size: 2.5rem;
+    color: yellow;
+}
+
+.header .navbar .nav-items {
+    padding: 20% 0;
+}
+
+.header .navbar .nav-items a{
+    display: block;
+    color: #fff;
+    font-size: 2rem;
+    margin: 1.7rem 0;
+    cursor: pointer;
+}
+
+.header .navbar .nav-items i{
+color: yellow;
+padding-right: .8rem;
+font-weight: bolder;
+font-size: 1.5rem;
+}
+
+.header .navbar .nav-items a:hover{
+    color: yellow;
+}
+.header .navbar .nav-items a:hover i{
+    padding-right: 2rem;
+}
+
+.header .navbar .icon-nav {
+text-align: center;
+}
+
+.header .navbar .icon-nav i{
+    font-size: 2rem;
+    height: 3.5rem;
+    width: 3.5rem;
+    line-height: 3.5rem;
+    border-radius: .2rem;
+    background-color: #fff;
+    margin: .2rem;
+    cursor: pointer;
+}
+
+.header .navbar .icon-nav i:hover {
+    background-color: #9999;
+
+}
+
+body{
+    padding-left: 30rem;
+}
+
+.home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.home .img-home{
+flex: 1 1 40rem;
+}
+
+.home .img-home img {
+    width: 100%;
+}
+
+.home .home-content {
+flex: 1 1 40rem;
+padding-right: 2rem;
+}
+
+.home .home-content span {
+    font-size: 2.5rem;
+    color: green;
+}
+
+.home .home-content h2{
+    font-size: 3rem;
+    font-weight: 300;
+    margin: 1.5rem 0;
+}
+
+.home .home-content h2 a{
+    color: green;
+}
+
+.home .home-content p{
+    font-size: 1.4rem;
+    color: #666;
+    line-height: 2.5rem;
+}
+
+.category {
+}
+
+.category .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.category .box-container .box {
+    border:.1rem solid rgba(0,0,0,.1);
+    overflow: hidden;
+    flex: 1 1 25rem;
+    border-radius: .5rem;
+    text-align: center;
+    position: relative;
+    background:#f9f9f9;
+    padding: 2rem;
+}
+
+.category .box-container .box i {
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    background-color: green;
+    border-radius: .5rem;
+    color: #fff;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.category .box-container .box h3{
+    color: #000;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.category .box-container .box p{
+    color: #666;
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+}
+
+
+
+/* hhihih */
+.courses .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.courses .box-container .box {
+    border: .1rem solid rgba(0,0,0,.1);
+    border-radius: .5rem;
+    flex: 1 1 25rem;
+    text-align: center;
+    background:#f9f9f9;
+    overflow: hidden;
+    align-items: center;
+    position: relative;
+}
+
+.courses .box-container .box .image{
+    padding: 2rem;
+}
+
+.courses .box-container .box .image h3{
+    font-size: 1.8rem;
+    color: #666;
+    font-weight: 300;
+}
+
+.courses .box-container .box:hover .content{
+display: flex;
+}
+
+.courses .box-container .box .content{
+position: absolute;
+top: 0;
+left: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+    background-color: green;
+    width: 100%;
+    height: 100%;
+    border-radius: .5rem;
+    flex-direction: column;
+    padding: 2rem;
+    display: none;
+}
+
+.courses .box-container .box .content .stars i{
+font-size: 2rem;
+color: yellow;
+margin: 0 .5rem;
+}
+
+.courses .box-container .box .content h3{
+    font-size: 2rem;
+    color: #fff;
+    margin: 2rem 0;
+
+}
+.courses .box-container .box .content p{
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: #f0f0f0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#btn-menu {
+    position: fixed;
+    top: 1rem;
+    right: 2rem;
+    font-size: 2rem;
+    background-color: green;
+    color: #fff;
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    cursor: pointer;
+    text-align: center;
+    border-radius: .4rem;
+    z-index: 1000;
+    display: none;
+}
+
+
+@media (max-width: 1200px) {
+    html {
+        font-size: 55%;
+    }
+    }
+
+    @media (max-width: 991px) {
+       #btn-menu {
+           display: block;
+       }
+       .header {
+           left: -110rem;
+       }
+       .active {
+        left: 0;
+        box-shadow: 0 0 0 100vw rgba(0, 0,0,.7);
+       }
+
+       body{
+        padding-left: 0;
+    }
+    }
+
+    @media (max-width: 450px) {
+html {
+    font-size: 50%;
+}
+    }
